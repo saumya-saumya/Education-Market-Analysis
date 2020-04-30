@@ -1,0 +1,97 @@
+Universtiy,LAT,LONG,AWLEVEL,Group,Nursing Available?,Link
+Miami Dade College - Hialeah Campus,25.8651745,-80.3188113,3,1,Yes,https://www.mdc.edu/academics/programs/associate.aspx
+Miami Dade College - Homestead Campus,25.474449,-80.4741931,3,1,Yes,
+Miami Dade College Kendall Campus,25.6755001,-80.3743171,3,1,Yes,
+Miami Dade College - Medical Campus,25.7946081,-80.2109141,3,1,Yes,
+Miami Dade College - North Campus,25.8771259,-80.2457318,3,1,Yes,
+Miami Dade College - Eduardo J. Padron Campus,25.7666053,-80.2382069,3,1,Yes,
+Miami Dade College - West Campus,25.8086111,-80.3847222,3,1,Yes,
+Miami Dade College - Wolfson Campus,25.7776558,-80.1908207,3,1,Yes,
+"Keiser University, 1500 Northwest 49th Street Fort Lauderdale, Florida 33309",26.1859628,-80.16378,3,2,Yes,
+"Keiser University, 2101 NW 117th Ave. Miami, Florida 33172",25.7935545,-80.3842257,3,2,Yes,https://www.keiseruniversity.edu/clearwater/
+"Keiser University, 1640 SW 145th Avenue Pembroke Pines, Florida 33027",25.9940832,-80.3390686,3,2,Yes,
+"Keiser University, 9400 SW Discovery Way, Port Saint Lucie, FL 34987",27.2549634,-80.4199272,3,2,Yes,
+"Broward College,  A. Hugh Adams Central Campus
+3501 S.W. Davie Road.
+Davie, FL 33314",26.0799557,-80.2357037,3,3,Yes,
+"Broward College, Broward College Online Campus
+6400 N.W. 6th Way
+Fort Lauderdale, FL 33309",26.2071102,-80.1518858,3,3,No,
+"Broward College, Judson A. Samuels South Campus
+7200 Pines Blvd.
+Pembroke Pines, FL 33024
+",26.0065494,-80.2343552,3,3,Yes,
+"Broward College, North Campus
+1000 Coconut Creek Blvd.
+Coconut Creek, FL 33066",26.2404884,-80.1743321,3,3,Yes,
+"Broward College, Miramar Town Center
+2050 Civic Center Place
+Miramar, FL 33025",25.9881952,-80.3006587,3,3,No,
+"Broward College, Pines Ce​nter
+16957 Sheridan Street.
+Pembroke Pines, FL 33331",26.0314882,-80.374719,3,3,No,
+"Broward College, Willis Holcombe Center 
+  111 East Las Olas Blvd. (Bldg. 33)
+      Fort Lauderdale, FL 33301
+",26.1193301,-80.1416159,3,3,No,
+"Broward College, Miramar West Center
+1930 SW 145th Avenue
+Miramar, FL 33027",25.992093,-80.339823,3,3,No,
+"Broward College, Tigertail Lake Center
+580 Gulfstream Way
+Dania Beach, FL 33004",26.0602156,-80.1666762,3,3,No,
+"Broward College, Miramar West Center
+1930 SW 145th Avenue
+Miramar, FL 33027",25.992093,-80.339823,3,3,No,
+"Florida Carrer College - Boynton Beach
+1743 North Congress Avenue, 
+Boynton Beach, Florida 33426",26.5421782,-80.0909864,3,5,Yes,
+"Florida Carrer College - 3750 W 18th Ave, Hialeah, 
+Florida 33012 ",25.8556829,-80.3193086,3,5,No,http://www.broward.edu/academics/programs/nursing/Pages/default.aspx
+"Florida Carrer College - 3383 N State Road 7,
+Lauderdale Lakes, Florida 33319",26.1654748,-80.2050307,3,5,Yes,
+"Florida Carrer College - 3271 N State Road 7,
+Margate, Florida 33063",26.2709214,-80.2033283,3,5,No,http://www.broward.edu/academics/programs/nursing/Pages/default.aspx
+"Florida Carrer College - 1321 SW 107 Ave, 
+Miami, Florida 33174 ",25.7565566,-80.367874,3,5,No,
+"Florida Carrer College -  989 N Semoran Blvd,
+Orlando, Florida 32807",28.5603029,-81.309096,3,5,No,
+"Florida Carrer College - 7891 Pines Blvd, 
+Pembroke Pines, FL 33024 ",26.0106825,-80.2460232,3,5,Yes,
+"Florida Carrer College - 9950 Princess Palm Ave Suite 100,
+Tampa, Florida 33619",27.9806496,-82.3369261,3,5,No,
+"Florida Carrer College -6058 Okeechobee Blvd,
+West Palm Beach, Florida 33417",26.7022053,-80.0862069,3,5,No,
+"Concorde Career Institute - Concorde Career Institute 10933 Marks Way Miramar, FL 33025",25.977031,-80.291214,3,6,No,
+"Concorde Career Institute - Concorde Career Institute 3444 McCrory Place Orlando, FL 32803",28.559848,-81.340423,3,6,No,
+"Concorde Career Institute - Concorde Career Institute 4202 W. Spruce Tampa, FL 33607",27.9592518,-82.5142695,3,6,No,https://www.floridacareercollege.edu/vocational-school-programs/nursing/
+"Fortis Institute of Port St. Lucie
+
+9022 South US Highway 1
+Port St. Lucie,FL,34952",27.3018069,-80.3035859,3,7,Yes,
+"Fortis College in Cutler Bay
+
+19600 South Dixie Highway
+Suite B,Cutler Bay,FL,33157",25.5856339,-80.3640343,3,7,Yes,
+"ITT Technical Institute-Fort Lauderdale - Fort Lauderdale, Florida",26.078993,-80.2524036,3,8,No,
+"ITT Technical Institute-Lake Mary - Lake Mary, Florida ",28.7502261,-81.3664969,3,8,No,
+"ITT Technical Institute-Miami - Miami, Florida",25.8041243,-80.3133943,3,8,No,
+"ITT Technical Institute-St. Petersburg - St. Petersburg, Florida",27.8606881,-82.6458647,3,8,No,
+"ITT Technical Institute-Tampa - Tampa, Florida",27.982415,-82.5475338,3,8,No,
+"ITT Technical Institut-“Fort Myers - Fort Myers, Florida",26.6472814,-81.8365305,3,8,No,
+"City College - 9300 S. Dadeland Blvd. Suite 200
+Miami, FL 33156",25.6837813,-80.3171307,3,9,No,https://www.concorde.edu/nursing-programs
+"City College - HOLLYWOOD CAMPUS
+6565 Taft St. Suite 200
+Hollywood FL 33024",26.025083,-80.2200267,3,9,No,
+"City College FORT LAUDERDALE CAMPUS
+2000 W Commercial Blvd #200, Fort Lauderdale, FL 33309",26.1874318,-80.1703458,3,9,No,
+,,,,,,
+,,,,,,
+,,,,,,Permanently Closed
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,
+,,,,,,https://www.citycollege.edu/locations/miami/

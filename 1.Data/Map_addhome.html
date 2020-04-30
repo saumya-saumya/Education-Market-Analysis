@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4b13f2dca33a48a398bdd11c2cb47c00 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4b13f2dca33a48a398bdd11c2cb47c00" ></div>
+        
+</body>
+<script>    
+    
+            var map_4b13f2dca33a48a398bdd11c2cb47c00 = L.map(
+                "map_4b13f2dca33a48a398bdd11c2cb47c00",
+                {
+                    center: [32.98199, -96.71502],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ffab4dbd63d46278e1d8be087a18cf2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var marker_07bc70067ece4f089adc6968213f41ff = L.marker(
+                [32.98199, -96.71502],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_6dfa7d5901bd4fbe83a2f638989ee13e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_07bc70067ece4f089adc6968213f41ff.setIcon(icon_6dfa7d5901bd4fbe83a2f638989ee13e);
+        
+    
+            marker_07bc70067ece4f089adc6968213f41ff.bindTooltip(
+                `<div>
+                     ['2323 North Central Expressway Richardson TX 75080', 'Home']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_527068cea0794059bba7b2eff42aac2a = L.marker(
+                [32.779817, -96.805361],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_fbc11c386b87427f9d46733ace156ef8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_527068cea0794059bba7b2eff42aac2a.setIcon(icon_fbc11c386b87427f9d46733ace156ef8);
+        
+    
+            marker_527068cea0794059bba7b2eff42aac2a.bindTooltip(
+                `<div>
+                     ['El Centro College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1aa27b853fe94dcfaf28561b2b03c064 = L.marker(
+                [32.747501, -97.32794799999999],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_de96845659444f92bf1a298b707a8b4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_1aa27b853fe94dcfaf28561b2b03c064.setIcon(icon_de96845659444f92bf1a298b707a8b4c);
+        
+    
+            marker_1aa27b853fe94dcfaf28561b2b03c064.bindTooltip(
+                `<div>
+                     ['Tarrant County College District', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb59bcd8fa7d4d0db1212e681dab1986 = L.marker(
+                [33.162409999999994, -96.63894],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_e763870e67db42ca910bbf8eca0ab2e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_cb59bcd8fa7d4d0db1212e681dab1986.setIcon(icon_e763870e67db42ca910bbf8eca0ab2e6);
+        
+    
+            marker_cb59bcd8fa7d4d0db1212e681dab1986.bindTooltip(
+                `<div>
+                     ['Collin County Community College District', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b177e5bed8ef425facaefa770e9eb2d0 = L.marker(
+                [32.928237, -96.85016],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_9682c4c759da4edfb1b926513ebf31b7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_b177e5bed8ef425facaefa770e9eb2d0.setIcon(icon_9682c4c759da4edfb1b926513ebf31b7);
+        
+    
+            marker_b177e5bed8ef425facaefa770e9eb2d0.bindTooltip(
+                `<div>
+                     ['Brookhaven College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65f43831a8a94669a0ef01c55cf8bb2b = L.marker(
+                [32.979759, -96.757217],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_a6d07d5780084c9dba6a8771bc3ecbbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_65f43831a8a94669a0ef01c55cf8bb2b.setIcon(icon_a6d07d5780084c9dba6a8771bc3ecbbc);
+        
+    
+            marker_65f43831a8a94669a0ef01c55cf8bb2b.bindTooltip(
+                `<div>
+                     ['ITT Technical Institute-Richardson', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6ef2ab60a3e4fecbe9bdb693269b818 = L.marker(
+                [32.9138, -96.73487800000001],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_80bd1d5c2ae8473fbab73da549215622 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_f6ef2ab60a3e4fecbe9bdb693269b818.setIcon(icon_80bd1d5c2ae8473fbab73da549215622);
+        
+    
+            marker_f6ef2ab60a3e4fecbe9bdb693269b818.bindTooltip(
+                `<div>
+                     ['Dallas Nursing Institute', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_50e29eff20dd49148250630623daa131 = L.marker(
+                [32.726572999999995, -96.903798],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_6a1de7b8f585403fbc74941376601390 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_50e29eff20dd49148250630623daa131.setIcon(icon_6a1de7b8f585403fbc74941376601390);
+        
+    
+            marker_50e29eff20dd49148250630623daa131.bindTooltip(
+                `<div>
+                     ['Mountain View College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76566981efdc4fb9b247c0595dd2b578 = L.marker(
+                [32.91856, -96.741711],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_ea2859f55b514d75b505d9af8b29f685 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_76566981efdc4fb9b247c0595dd2b578.setIcon(icon_ea2859f55b514d75b505d9af8b29f685);
+        
+    
+            marker_76566981efdc4fb9b247c0595dd2b578.bindTooltip(
+                `<div>
+                     ['Concorde Career College-Dallas', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_048989b3675d4e2aac22ab9549406477 = L.marker(
+                [32.815899, -96.625985],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_a298db5ed2db44aca1802c39c7983aa5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_048989b3675d4e2aac22ab9549406477.setIcon(icon_a298db5ed2db44aca1802c39c7983aa5);
+        
+    
+            marker_048989b3675d4e2aac22ab9549406477.bindTooltip(
+                `<div>
+                     ['Carrington College-Mesquite', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eee611c0257b48bb885583d90105b2f0 = L.marker(
+                [32.910419, -96.935539],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_972703672d4243d1a7aa5f503d8dc6b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_eee611c0257b48bb885583d90105b2f0.setIcon(icon_972703672d4243d1a7aa5f503d8dc6b5);
+        
+    
+            marker_eee611c0257b48bb885583d90105b2f0.bindTooltip(
+                `<div>
+                     ['Arizona College of Nursing', 'Bachelors']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcf57c31430a42348c882ddb4d2779a1 = L.marker(
+                [32.729718, -97.11296],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_0b72f48d0e9144a2a9a2df689c8dee8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_fcf57c31430a42348c882ddb4d2779a1.setIcon(icon_0b72f48d0e9144a2a9a2df689c8dee8a);
+        
+    
+            marker_fcf57c31430a42348c882ddb4d2779a1.bindTooltip(
+                `<div>
+                     ['The University of Texas at Arlington', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d195b8adf2f848d4a3fd35440267b167 = L.marker(
+                [33.227002, -97.129088],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_b455519a56c2451a8ee0d20fe5adb93a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_d195b8adf2f848d4a3fd35440267b167.setIcon(icon_b455519a56c2451a8ee0d20fe5adb93a);
+        
+    
+            marker_d195b8adf2f848d4a3fd35440267b167.bindTooltip(
+                `<div>
+                     ["Texas Woman's University", "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e25b5d93272f4fa79ff3c7db3fdab360 = L.marker(
+                [32.788090000000004, -96.77535999999999],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_2a0c901eef214adf99d492027a98bdbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_e25b5d93272f4fa79ff3c7db3fdab360.setIcon(icon_2a0c901eef214adf99d492027a98bdbb);
+        
+    
+            marker_e25b5d93272f4fa79ff3c7db3fdab360.bindTooltip(
+                `<div>
+                     ['Baylor University', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_449e36eb0bf44b6cb08d7bf6b65184c5 = L.marker(
+                [32.709568, -97.361537],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_27038ef1745d4151988e9134f7eb2826 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_449e36eb0bf44b6cb08d7bf6b65184c5.setIcon(icon_27038ef1745d4151988e9134f7eb2826);
+        
+    
+            marker_449e36eb0bf44b6cb08d7bf6b65184c5.bindTooltip(
+                `<div>
+                     ['Texas Christian University', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fd4e82626154d83b57d9ec4c0e31455 = L.marker(
+                [32.827259999999995, -96.87399],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_94d4cd7f1bf344c58374f7d5265f1d32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_3fd4e82626154d83b57d9ec4c0e31455.setIcon(icon_94d4cd7f1bf344c58374f7d5265f1d32);
+        
+    
+            marker_3fd4e82626154d83b57d9ec4c0e31455.bindTooltip(
+                `<div>
+                     ['West Coast University-Dallas', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d02b9084507476eb97def74d7ae334d = L.marker(
+                [32.933609999999994, -97.01129],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_8817f590e9fd4f0db99b76f303f27298 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_4d02b9084507476eb97def74d7ae334d.setIcon(icon_8817f590e9fd4f0db99b76f303f27298);
+        
+    
+            marker_4d02b9084507476eb97def74d7ae334d.bindTooltip(
+                `<div>
+                     ['Chamberlain University-Texas', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_575d2e89a46f455fabe29a2aa53d0dbc = L.marker(
+                [32.928188, -96.82329399999999],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_7faeed59ac114d3da50fa014271b74c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_575d2e89a46f455fabe29a2aa53d0dbc.setIcon(icon_7faeed59ac114d3da50fa014271b74c4);
+        
+    
+            marker_575d2e89a46f455fabe29a2aa53d0dbc.bindTooltip(
+                `<div>
+                     ['Argosy University-Dallas', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb99a029b4654fd888f469657d73d3d8 = L.marker(
+                [32.9138, -96.73487800000001],
+                {}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            var icon_0068b128728d4dc9a9b8b0d3ef81747e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_cb99a029b4654fd888f469657d73d3d8.setIcon(icon_0068b128728d4dc9a9b8b0d3ef81747e);
+        
+    
+            marker_cb99a029b4654fd888f469657d73d3d8.bindTooltip(
+                `<div>
+                     ['Dallas Nursing Institute', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_ad054fd20cee4adebd79bbdb5cbddb8f = L.circle(
+                [32.98199, -96.71502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 8333.333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            circle_ad054fd20cee4adebd79bbdb5cbddb8f.bindTooltip(
+                `<div>
+                     5 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_9a1af94707bc47868faf40fd02a6a11b = L.circle(
+                [32.98199, -96.71502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 16666.666666666668, "stroke": true, "weight": 3}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            circle_9a1af94707bc47868faf40fd02a6a11b.bindTooltip(
+                `<div>
+                     10 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_595ba5cd320d4180b3b3af433e43ab96 = L.circle(
+                [32.98199, -96.71502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 33333.333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            circle_595ba5cd320d4180b3b3af433e43ab96.bindTooltip(
+                `<div>
+                     20 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_370f62fa274e458db9e3facf8ca5ec95 = L.circle(
+                [32.98199, -96.71502],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 50000.0, "stroke": true, "weight": 3}
+            ).addTo(map_4b13f2dca33a48a398bdd11c2cb47c00);
+        
+    
+            circle_370f62fa274e458db9e3facf8ca5ec95.bindTooltip(
+                `<div>
+                     30 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

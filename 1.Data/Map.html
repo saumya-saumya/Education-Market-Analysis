@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_720014ecb9044f24b142017dda75901e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_720014ecb9044f24b142017dda75901e" ></div>
+        
+</body>
+<script>    
+    
+            var map_720014ecb9044f24b142017dda75901e = L.map(
+                "map_720014ecb9044f24b142017dda75901e",
+                {
+                    center: [25.81071, -80.347651],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74944ec1da0c43dfbf50cde60cbbc2bb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var marker_1a2e5d08d6504e198e5388d28a4d79a7 = L.marker(
+                [25.77771700000001, -80.19085600000003],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_b7a97079d89d4c71a9737c690e4dc459 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_1a2e5d08d6504e198e5388d28a4d79a7.setIcon(icon_b7a97079d89d4c71a9737c690e4dc459);
+        
+    
+            marker_1a2e5d08d6504e198e5388d28a4d79a7.bindTooltip(
+                `<div>
+                     ['Miami Dade College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4d42e1878115423eab08e0d4b7f24832 = L.marker(
+                [26.185869, -80.16395899999998],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_aa6d36f784b24f0d8b7321690b5aa64d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_4d42e1878115423eab08e0d4b7f24832.setIcon(icon_aa6d36f784b24f0d8b7321690b5aa64d);
+        
+    
+            marker_4d42e1878115423eab08e0d4b7f24832.bindTooltip(
+                `<div>
+                     ['Keiser University-Ft Lauderdale', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0842f4cea973430fb5481be33e7e2783 = L.marker(
+                [26.119422, -80.14183],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_f9b3c66f62f242afaa5e2723808fb399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_0842f4cea973430fb5481be33e7e2783.setIcon(icon_f9b3c66f62f242afaa5e2723808fb399);
+        
+    
+            marker_0842f4cea973430fb5481be33e7e2783.bindTooltip(
+                `<div>
+                     ['Broward College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6009a50deabe43f5b714c90edd00ef1e = L.marker(
+                [25.810667000000002, -80.26700699999998],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_4a130619e86449e18d4862a73de145c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_6009a50deabe43f5b714c90edd00ef1e.setIcon(icon_4a130619e86449e18d4862a73de145c2);
+        
+    
+            marker_6009a50deabe43f5b714c90edd00ef1e.bindTooltip(
+                `<div>
+                     ['Miami Regional University', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2f58eb2633040ce9aec6a57b3d01120 = L.marker(
+                [25.771518, -80.261299],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_62ae1d59e1bd4ee29dc6c2c53f6c84be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_c2f58eb2633040ce9aec6a57b3d01120.setIcon(icon_62ae1d59e1bd4ee29dc6c2c53f6c84be);
+        
+    
+            marker_c2f58eb2633040ce9aec6a57b3d01120.bindTooltip(
+                `<div>
+                     ['SABER College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e31c4e28c0bc4a849ee85b9f9ea12f6f = L.marker(
+                [25.973847, -80.350723],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_1766434ded3a4980894501850c707f23 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_e31c4e28c0bc4a849ee85b9f9ea12f6f.setIcon(icon_1766434ded3a4980894501850c707f23);
+        
+    
+            marker_e31c4e28c0bc4a849ee85b9f9ea12f6f.bindTooltip(
+                `<div>
+                     ['Brown Mackie College-Miami', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fec3929bb225491abe9d6473ad3eb2bd = L.marker(
+                [25.756567, -80.36778000000002],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_4c54ebddaf5a43e592fe898bc1e12bcc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_fec3929bb225491abe9d6473ad3eb2bd.setIcon(icon_4c54ebddaf5a43e592fe898bc1e12bcc);
+        
+    
+            marker_fec3929bb225491abe9d6473ad3eb2bd.bindTooltip(
+                `<div>
+                     ['Florida Career College-Miami', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_91993db339c1436d843359d64ae410da = L.marker(
+                [25.86178, -80.321846],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_b40c77d57fc8430b841327b735bb7821 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_91993db339c1436d843359d64ae410da.setIcon(icon_b40c77d57fc8430b841327b735bb7821);
+        
+    
+            marker_91993db339c1436d843359d64ae410da.bindTooltip(
+                `<div>
+                     ['Florida National University-Main Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59f4ce398f94499897590529c0b02098 = L.marker(
+                [25.977088000000002, -80.291516],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_a03be284330248bb8a6453ea41c4c436 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_59f4ce398f94499897590529c0b02098.setIcon(icon_a03be284330248bb8a6453ea41c4c436);
+        
+    
+            marker_59f4ce398f94499897590529c0b02098.bindTooltip(
+                `<div>
+                     ['Concorde Career Institute-Miramar', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d13dcb10cd86449b9184967352f5186a = L.marker(
+                [26.16574, -80.205267],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_3329eba7723b48efa9b43bb56443a9f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_d13dcb10cd86449b9184967352f5186a.setIcon(icon_3329eba7723b48efa9b43bb56443a9f0);
+        
+    
+            marker_d13dcb10cd86449b9184967352f5186a.bindTooltip(
+                `<div>
+                     ['Florida Career College-Lauderdale Lakes', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7fdaa22584104831a40d371f6014cbdc = L.marker(
+                [25.585653, -80.36399499999997],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_2d2b9dda54f54b1882ed219f66087edf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_7fdaa22584104831a40d371f6014cbdc.setIcon(icon_2d2b9dda54f54b1882ed219f66087edf);
+        
+    
+            marker_7fdaa22584104831a40d371f6014cbdc.bindTooltip(
+                `<div>
+                     ['Fortis College-Cutler Bay', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fac7b789a87a46e7929a22e4bac20f55 = L.marker(
+                [25.767091, -80.37011700000002],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_ec2c15832096477daf02153fe5512d34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_fac7b789a87a46e7929a22e4bac20f55.setIcon(icon_ec2c15832096477daf02153fe5512d34);
+        
+    
+            marker_fac7b789a87a46e7929a22e4bac20f55.bindTooltip(
+                `<div>
+                     ['Universal Career School', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b11eb2683884a35bb9ab2cf3032f676 = L.marker(
+                [25.691021, -80.383298],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_2e12b352b73a4d04b058a04c9c311534 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_5b11eb2683884a35bb9ab2cf3032f676.setIcon(icon_2e12b352b73a4d04b058a04c9c311534);
+        
+    
+            marker_5b11eb2683884a35bb9ab2cf3032f676.bindTooltip(
+                `<div>
+                     ['Florida Career College-Kendall', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95230dc482734b5788bdd67cd87fa19d = L.marker(
+                [26.078932000000002, -80.252324],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_3525c0261c67479cbc207317c5b213d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_95230dc482734b5788bdd67cd87fa19d.setIcon(icon_3525c0261c67479cbc207317c5b213d2);
+        
+    
+            marker_95230dc482734b5788bdd67cd87fa19d.bindTooltip(
+                `<div>
+                     ['ITT Technical Institute-Fort Lauderdale', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5035c78affdd46fca4009721d80c48b0 = L.marker(
+                [26.187467, -80.1705],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_283db6ad3cc84e9ea6f725234fa5a866 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_5035c78affdd46fca4009721d80c48b0.setIcon(icon_283db6ad3cc84e9ea6f725234fa5a866);
+        
+    
+            marker_5035c78affdd46fca4009721d80c48b0.bindTooltip(
+                `<div>
+                     ['City College-Fort Lauderdale', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_528cdfa8acb144c4907ee3eebb88bb3a = L.marker(
+                [26.175133, -80.20294799999998],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_2ec70ac51d154c35a904064cad39ab5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_528cdfa8acb144c4907ee3eebb88bb3a.setIcon(icon_2ec70ac51d154c35a904064cad39ab5b);
+        
+    
+            marker_528cdfa8acb144c4907ee3eebb88bb3a.bindTooltip(
+                `<div>
+                     ['Med-Life Institute-Lauderdale Lakes', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c01f76de8f414709af82eb5056af6fa0 = L.marker(
+                [25.940179999999998, -80.296001],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_0e905f779c144ef9a04c47fc136a1837 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_c01f76de8f414709af82eb5056af6fa0.setIcon(icon_0e905f779c144ef9a04c47fc136a1837);
+        
+    
+            marker_c01f76de8f414709af82eb5056af6fa0.bindTooltip(
+                `<div>
+                     ['ITT Technical Institute-Hialeah', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_162add376a22460eb669d7f3efbc6c60 = L.marker(
+                [25.683673000000002, -80.316377],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_312da4879c044610aee49263f9d93820 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_162add376a22460eb669d7f3efbc6c60.setIcon(icon_312da4879c044610aee49263f9d93820);
+        
+    
+            marker_162add376a22460eb669d7f3efbc6c60.bindTooltip(
+                `<div>
+                     ['City College-Miami', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_904e94d033734a5b925984295e90cff5 = L.marker(
+                [26.010968, -80.246116],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_46d8f61befb44c1291e6f5d36e0b0147 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_904e94d033734a5b925984295e90cff5.setIcon(icon_46d8f61befb44c1291e6f5d36e0b0147);
+        
+    
+            marker_904e94d033734a5b925984295e90cff5.bindTooltip(
+                `<div>
+                     ['Florida Career College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7de758303aa041588011bbae75a22170 = L.marker(
+                [26.17005, -80.202496],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_8ee8d1755a784c32bb7a2d2473d69aa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_7de758303aa041588011bbae75a22170.setIcon(icon_8ee8d1755a784c32bb7a2d2473d69aa4);
+        
+    
+            marker_7de758303aa041588011bbae75a22170.bindTooltip(
+                `<div>
+                     ['Orion College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90a2231a81e84cea87a159f500138a63 = L.marker(
+                [25.66273, -80.393361],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_87bd271c542d45a5ae9beb79d30ae77f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_90a2231a81e84cea87a159f500138a63.setIcon(icon_87bd271c542d45a5ae9beb79d30ae77f);
+        
+    
+            marker_90a2231a81e84cea87a159f500138a63.bindTooltip(
+                `<div>
+                     ['American Medical Academy', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_92c9a8ebee274521b226b151461f3d98 = L.marker(
+                [26.226156, -80.13967099999998],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_a6632f742a5d432c9a2d2f56d95c5fed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_92c9a8ebee274521b226b151461f3d98.setIcon(icon_a6632f742a5d432c9a2d2f56d95c5fed);
+        
+    
+            marker_92c9a8ebee274521b226b151461f3d98.bindTooltip(
+                `<div>
+                     ['Hope College of Arts and Sciences', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c41ea52d4a034a76b258d86aac96e904 = L.marker(
+                [25.855863, -80.307736],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_e23f1d4d62a44b13a052db7b51bd33e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_c41ea52d4a034a76b258d86aac96e904.setIcon(icon_e23f1d4d62a44b13a052db7b51bd33e7);
+        
+    
+            marker_c41ea52d4a034a76b258d86aac96e904.bindTooltip(
+                `<div>
+                     ['Advance Science College', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3592f21dd6a54f9b91b23b6b6052a7fd = L.marker(
+                [25.7646, -80.251401],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_3e0443d7178b4546971f8ad7e53dc7c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "cadetblue", "prefix": "fa"}
+            );
+            marker_3592f21dd6a54f9b91b23b6b6052a7fd.setIcon(icon_3e0443d7178b4546971f8ad7e53dc7c9);
+        
+    
+            marker_3592f21dd6a54f9b91b23b6b6052a7fd.bindTooltip(
+                `<div>
+                     ['Future-Tech Institute', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b5af41f2a44a4dc1ad7a875d9261729f = L.marker(
+                [26.079337, -80.24248],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_c6c68acb72c94ba89cdb7ae85459b7c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_b5af41f2a44a4dc1ad7a875d9261729f.setIcon(icon_c6c68acb72c94ba89cdb7ae85459b7c1);
+        
+    
+            marker_b5af41f2a44a4dc1ad7a875d9261729f.bindTooltip(
+                `<div>
+                     ['Nova Southeastern University', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89ff69b11e5e4de7b28f96e04ab4fa90 = L.marker(
+                [25.75732, -80.373928],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_7d17b7f77fc14cebb4843aa42354a294 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_89ff69b11e5e4de7b28f96e04ab4fa90.setIcon(icon_7d17b7f77fc14cebb4843aa42354a294);
+        
+    
+            marker_89ff69b11e5e4de7b28f96e04ab4fa90.bindTooltip(
+                `<div>
+                     ['Florida International University', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0bb041fd55af4f6ca417085e27533904 = L.marker(
+                [25.77771700000001, -80.19085600000003],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_9360e0d538e84615b1a531bf3f43e5ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_0bb041fd55af4f6ca417085e27533904.setIcon(icon_9360e0d538e84615b1a531bf3f43e5ce);
+        
+    
+            marker_0bb041fd55af4f6ca417085e27533904.bindTooltip(
+                `<div>
+                     ['Miami Dade College', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d46b213d3c8f4d108748575867dae549 = L.marker(
+                [25.72126, -80.278662],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_ecc2658a7ebd4c57919cccfb89ac4093 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_d46b213d3c8f4d108748575867dae549.setIcon(icon_ecc2658a7ebd4c57919cccfb89ac4093);
+        
+    
+            marker_d46b213d3c8f4d108748575867dae549.bindTooltip(
+                `<div>
+                     ['University of Miami', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b83d18033c324574a2156f0ad26077f4 = L.marker(
+                [25.878908, -80.198925],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_059c78dd4d28482ba215810fca723402 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_b83d18033c324574a2156f0ad26077f4.setIcon(icon_059c78dd4d28482ba215810fca723402);
+        
+    
+            marker_b83d18033c324574a2156f0ad26077f4.bindTooltip(
+                `<div>
+                     ['Barry University', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_42a99a2db9714d868f477f3110cc36ac = L.marker(
+                [26.119422, -80.14183],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_2ead0e55d4d94efeb85730f919fe1e6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_42a99a2db9714d868f477f3110cc36ac.setIcon(icon_2ead0e55d4d94efeb85730f919fe1e6a);
+        
+    
+            marker_42a99a2db9714d868f477f3110cc36ac.bindTooltip(
+                `<div>
+                     ['Broward College', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e97105eec5f14e3bbd8234cb923ac1eb = L.marker(
+                [25.86178, -80.321846],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_52328c36c480436082682a6128bca80c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_e97105eec5f14e3bbd8234cb923ac1eb.setIcon(icon_52328c36c480436082682a6128bca80c);
+        
+    
+            marker_e97105eec5f14e3bbd8234cb923ac1eb.bindTooltip(
+                `<div>
+                     ['Florida National University-Main Campus', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b59934466bd34ebe816d8e292bcb29ff = L.marker(
+                [26.185869, -80.16395899999998],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_c82e969d31f5413893bd0a8679ebcf51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_b59934466bd34ebe816d8e292bcb29ff.setIcon(icon_c82e969d31f5413893bd0a8679ebcf51);
+        
+    
+            marker_b59934466bd34ebe816d8e292bcb29ff.bindTooltip(
+                `<div>
+                     ['Keiser University-Ft Lauderdale', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9348162716444aa2b9252f282cf39347 = L.marker(
+                [25.81071, -80.347651],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_e5df00dbf31e42c8b9d4e8fd0d56b3d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_9348162716444aa2b9252f282cf39347.setIcon(icon_e5df00dbf31e42c8b9d4e8fd0d56b3d6);
+        
+    
+            marker_9348162716444aa2b9252f282cf39347.bindTooltip(
+                `<div>
+                     ['West Coast University-Miami', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2e03d689da04a5c906fb03dab6f1dd7 = L.marker(
+                [25.810667000000002, -80.26700699999998],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_d1793001009c43d0b1f6df0f5957e563 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_e2e03d689da04a5c906fb03dab6f1dd7.setIcon(icon_d1793001009c43d0b1f6df0f5957e563);
+        
+    
+            marker_e2e03d689da04a5c906fb03dab6f1dd7.bindTooltip(
+                `<div>
+                     ['Miami Regional University', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2499960d3cf948e7bc4c6698099fc451 = L.marker(
+                [25.922071, -80.253273],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_594f6f6d04fd4691bb953469ae2dcb65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_2499960d3cf948e7bc4c6698099fc451.setIcon(icon_594f6f6d04fd4691bb953469ae2dcb65);
+        
+    
+            marker_2499960d3cf948e7bc4c6698099fc451.bindTooltip(
+                `<div>
+                     ['St Thomas University', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8411f5ba48d347a9beccbafdb4ec3657 = L.marker(
+                [26.17005, -80.202496],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_0d0d5eedadf741d390aef373fc2ba602 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user-md", "iconColor": "white", "markerColor": "gray", "prefix": "fa"}
+            );
+            marker_8411f5ba48d347a9beccbafdb4ec3657.setIcon(icon_0d0d5eedadf741d390aef373fc2ba602);
+        
+    
+            marker_8411f5ba48d347a9beccbafdb4ec3657.bindTooltip(
+                `<div>
+                     ['Orion College', "Bachelors'"]
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5365858724df49508686492ae567f400 = L.marker(
+                [25.8651745, -80.31881130000001],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_f60ef0de82264f168a8ade47b3e2b94e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_5365858724df49508686492ae567f400.setIcon(icon_f60ef0de82264f168a8ade47b3e2b94e);
+        
+    
+            marker_5365858724df49508686492ae567f400.bindTooltip(
+                `<div>
+                     ['Miami Dade College - Hialeah Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b080a5f8fca460c84b0e195738ce394 = L.marker(
+                [25.474449, -80.4741931],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_1e2ca47fd8304fa7bb8e3d7ef9f9a530 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_8b080a5f8fca460c84b0e195738ce394.setIcon(icon_1e2ca47fd8304fa7bb8e3d7ef9f9a530);
+        
+    
+            marker_8b080a5f8fca460c84b0e195738ce394.bindTooltip(
+                `<div>
+                     ['Miami Dade College - Homestead Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c910130441d84381a5ee7d35fb651596 = L.marker(
+                [25.6755001, -80.3743171],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_ad1affd8dc984f6b8bcdd83cd4f2d882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_c910130441d84381a5ee7d35fb651596.setIcon(icon_ad1affd8dc984f6b8bcdd83cd4f2d882);
+        
+    
+            marker_c910130441d84381a5ee7d35fb651596.bindTooltip(
+                `<div>
+                     ['Miami Dade College Kendall Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eafe09b2194c410a93728c908f0f73c4 = L.marker(
+                [25.7946081, -80.2109141],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_fb3647e1f46a427d884d1713b29a5d6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_eafe09b2194c410a93728c908f0f73c4.setIcon(icon_fb3647e1f46a427d884d1713b29a5d6d);
+        
+    
+            marker_eafe09b2194c410a93728c908f0f73c4.bindTooltip(
+                `<div>
+                     ['Miami Dade College - Medical Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c74fdfda1f2d4bb4b6268650c4e7268f = L.marker(
+                [25.8771259, -80.2457318],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_da043ae5824347f0a7138c4995a0e073 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_c74fdfda1f2d4bb4b6268650c4e7268f.setIcon(icon_da043ae5824347f0a7138c4995a0e073);
+        
+    
+            marker_c74fdfda1f2d4bb4b6268650c4e7268f.bindTooltip(
+                `<div>
+                     ['Miami Dade College - North Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfaaa29fce204818a90a37951ca5d154 = L.marker(
+                [25.766605300000002, -80.23820690000001],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_6b23885a0c054bb3b1e52c4c6056c5a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_dfaaa29fce204818a90a37951ca5d154.setIcon(icon_6b23885a0c054bb3b1e52c4c6056c5a2);
+        
+    
+            marker_dfaaa29fce204818a90a37951ca5d154.bindTooltip(
+                `<div>
+                     ['Miami Dade College - Eduardo J. Padron Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d63df24dd41e4e3d864f2738fdfbb4b9 = L.marker(
+                [25.8086111, -80.38472220000001],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_58349be4dad84856823425105d6cc0d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_d63df24dd41e4e3d864f2738fdfbb4b9.setIcon(icon_58349be4dad84856823425105d6cc0d7);
+        
+    
+            marker_d63df24dd41e4e3d864f2738fdfbb4b9.bindTooltip(
+                `<div>
+                     ['Miami Dade College - West Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ac3e6678f1ae450a9300a5a914d8993c = L.marker(
+                [25.7776558, -80.1908207],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_22c4dd2b905b4b6f88d315d306acc3e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkred", "prefix": "fa"}
+            );
+            marker_ac3e6678f1ae450a9300a5a914d8993c.setIcon(icon_22c4dd2b905b4b6f88d315d306acc3e4);
+        
+    
+            marker_ac3e6678f1ae450a9300a5a914d8993c.bindTooltip(
+                `<div>
+                     ['Miami Dade College - Wolfson Campus', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c31315d79b5b4e75a60c5350860f5a13 = L.marker(
+                [26.1859628, -80.16378],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_7b5c37c8971945e0804cc6a7128ff94b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c31315d79b5b4e75a60c5350860f5a13.setIcon(icon_7b5c37c8971945e0804cc6a7128ff94b);
+        
+    
+            marker_c31315d79b5b4e75a60c5350860f5a13.bindTooltip(
+                `<div>
+                     ['Keiser University, 1500 Northwest 49th Street Fort Lauderdale, Florida 33309', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6cbeb648cc2f49d9a1c53b6a5287fbec = L.marker(
+                [25.793554500000003, -80.3842257],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_1c49929901664583aae41adff56c9703 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6cbeb648cc2f49d9a1c53b6a5287fbec.setIcon(icon_1c49929901664583aae41adff56c9703);
+        
+    
+            marker_6cbeb648cc2f49d9a1c53b6a5287fbec.bindTooltip(
+                `<div>
+                     ['Keiser University, 2101 NW 117th Ave. Miami, Florida 33172', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19700805984644ab9168d5bcccec37a3 = L.marker(
+                [25.9940832, -80.3390686],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_81406494b427497682186c2ebd5bf6db = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_19700805984644ab9168d5bcccec37a3.setIcon(icon_81406494b427497682186c2ebd5bf6db);
+        
+    
+            marker_19700805984644ab9168d5bcccec37a3.bindTooltip(
+                `<div>
+                     ['Keiser University, 1640 SW 145th Avenue Pembroke Pines, Florida 33027', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b28d637bb4f4007b1c6803ca83bb58c = L.marker(
+                [27.254963399999998, -80.4199272],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_c024971a5ae54bac9f8114c8810d1de0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0b28d637bb4f4007b1c6803ca83bb58c.setIcon(icon_c024971a5ae54bac9f8114c8810d1de0);
+        
+    
+            marker_0b28d637bb4f4007b1c6803ca83bb58c.bindTooltip(
+                `<div>
+                     ['Keiser University, 9400 SW Discovery Way, Port Saint Lucie, FL 34987', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a513b1d26d84a4da04bacce129c656e = L.marker(
+                [26.0799557, -80.2357037],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_bc6d0007f10646c4adc3cd194c4a191c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "beige", "prefix": "fa"}
+            );
+            marker_7a513b1d26d84a4da04bacce129c656e.setIcon(icon_bc6d0007f10646c4adc3cd194c4a191c);
+        
+    
+            marker_7a513b1d26d84a4da04bacce129c656e.bindTooltip(
+                `<div>
+                     ['Broward College,  A. Hugh Adams Central Campus\n3501 S.W. Davie Road.\nDavie, FL 33314', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0fda9ba511444fbf945563fc6ecc885b = L.marker(
+                [26.006549399999997, -80.2343552],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_084842881ed64be391aea5e9def28107 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "beige", "prefix": "fa"}
+            );
+            marker_0fda9ba511444fbf945563fc6ecc885b.setIcon(icon_084842881ed64be391aea5e9def28107);
+        
+    
+            marker_0fda9ba511444fbf945563fc6ecc885b.bindTooltip(
+                `<div>
+                     ['Broward College, Judson A. Samuels South Campus\n7200 Pines Blvd.\nPembroke Pines, FL 33024\n', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26089c9c9e9b4c058c81535d4b6b60fa = L.marker(
+                [26.240488399999997, -80.1743321],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_304b9c55a294483e9f10dc97d54ab488 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "beige", "prefix": "fa"}
+            );
+            marker_26089c9c9e9b4c058c81535d4b6b60fa.setIcon(icon_304b9c55a294483e9f10dc97d54ab488);
+        
+    
+            marker_26089c9c9e9b4c058c81535d4b6b60fa.bindTooltip(
+                `<div>
+                     ['Broward College, North Campus\r\n1000 Coconut Creek Blvd.\r\nCoconut Creek, FL 33066', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28ae18400a33428382d5d227c1f18d38 = L.marker(
+                [26.542178200000002, -80.0909864],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_c48a8f764558427f8e6b330abb44c71c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_28ae18400a33428382d5d227c1f18d38.setIcon(icon_c48a8f764558427f8e6b330abb44c71c);
+        
+    
+            marker_28ae18400a33428382d5d227c1f18d38.bindTooltip(
+                `<div>
+                     ['Florida Carrer College - Boynton Beach\n1743 North Congress Avenue, \nBoynton Beach, Florida 33426', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59abbea1b9a24dcfa208e32e4e427497 = L.marker(
+                [26.165474800000002, -80.20503070000001],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_6e3b6e98038e49f082725517f7a3ca57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_59abbea1b9a24dcfa208e32e4e427497.setIcon(icon_6e3b6e98038e49f082725517f7a3ca57);
+        
+    
+            marker_59abbea1b9a24dcfa208e32e4e427497.bindTooltip(
+                `<div>
+                     ['Florida Carrer College - 3383 N State Road 7,\nLauderdale Lakes, Florida 33319', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c29463b7758045fa98fdb9bcfefbe22f = L.marker(
+                [26.0106825, -80.24602320000001],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_3b69475a85f74d389b8a677e07c3c5ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkgreen", "prefix": "fa"}
+            );
+            marker_c29463b7758045fa98fdb9bcfefbe22f.setIcon(icon_3b69475a85f74d389b8a677e07c3c5ae);
+        
+    
+            marker_c29463b7758045fa98fdb9bcfefbe22f.bindTooltip(
+                `<div>
+                     ['Florida Carrer College - 7891 Pines Blvd, \nPembroke Pines, FL 33024 ', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2bfad1d73017488e8b7e6a8c50504ba2 = L.marker(
+                [27.301806899999995, -80.3035859],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_5d6667a8490b44d299a2cf2d64803863 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_2bfad1d73017488e8b7e6a8c50504ba2.setIcon(icon_5d6667a8490b44d299a2cf2d64803863);
+        
+    
+            marker_2bfad1d73017488e8b7e6a8c50504ba2.bindTooltip(
+                `<div>
+                     ['Fortis Institute of Port St. Lucie\n\n9022 South US Highway 1\nPort St. Lucie,FL,34952', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69c7cae2b24f49519034084aa96eac90 = L.marker(
+                [25.585633899999998, -80.3640343],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_41e69468ed5745ed95370e874a887ca3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "university", "iconColor": "white", "markerColor": "darkblue", "prefix": "fa"}
+            );
+            marker_69c7cae2b24f49519034084aa96eac90.setIcon(icon_41e69468ed5745ed95370e874a887ca3);
+        
+    
+            marker_69c7cae2b24f49519034084aa96eac90.bindTooltip(
+                `<div>
+                     ['Fortis College in Cutler Bay\n\n19600 South Dixie Highway\nSuite B,Cutler Bay,FL,33157', 'Associate']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b341112d4a6a408e9abf07c8ea16830c = L.marker(
+                [25.81071, -80.347651],
+                {}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            var icon_5b6e41093d034550bb1306a697ba28e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b341112d4a6a408e9abf07c8ea16830c.setIcon(icon_5b6e41093d034550bb1306a697ba28e9);
+        
+    
+            marker_b341112d4a6a408e9abf07c8ea16830c.bindTooltip(
+                `<div>
+                     ['West Coast University-Miami', 'Bachelors', 'Home']
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_4209107733064ef19fd5686822080977 = L.circle(
+                [25.81071, -80.347651],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 8000.0, "stroke": true, "weight": 3}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            circle_4209107733064ef19fd5686822080977.bindTooltip(
+                `<div>
+                     5 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_f72ca8006d4a488fadb1464eb9897ccd = L.circle(
+                [25.81071, -80.347651],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 16000.0, "stroke": true, "weight": 3}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            circle_f72ca8006d4a488fadb1464eb9897ccd.bindTooltip(
+                `<div>
+                     10 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_68e1e65c615047988aa338c1a65b8993 = L.circle(
+                [25.81071, -80.347651],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 32000.0, "stroke": true, "weight": 3}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            circle_68e1e65c615047988aa338c1a65b8993.bindTooltip(
+                `<div>
+                     20 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_992d17057e7f4847bc5f627a40c8ef7a = L.circle(
+                [25.81071, -80.347651],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.2, "radius": 48000.0, "stroke": true, "weight": 3}
+            ).addTo(map_720014ecb9044f24b142017dda75901e);
+        
+    
+            circle_992d17057e7f4847bc5f627a40c8ef7a.bindTooltip(
+                `<div>
+                     30 miles boundary
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
